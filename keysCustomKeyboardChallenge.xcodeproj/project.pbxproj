@@ -16,6 +16,7 @@
 		A3445BDE282B06EE00F25EBC /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3445BDD282B06EE00F25EBC /* KeyboardViewController.swift */; };
 		A3445BE2282B06EE00F25EBC /* keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A3445BDB282B06EE00F25EBC /* keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A3445BE8282B114400F25EBC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3445BE7282B114400F25EBC /* RootView.swift */; };
+		B4160CDC0B4D479EDDCAB406 /* Pods_keysCustomKeyboardChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836598895F4DC63B539CAAC0 /* Pods_keysCustomKeyboardChallengeTests.framework */; };
 		D80C28E2288615AD00E4AD77 /* BaseSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28E1288615AD00E4AD77 /* BaseSubscriber.swift */; };
 		D80C28E4288615D000E4AD77 /* BaseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28E3288615D000E4AD77 /* BaseUseCase.swift */; };
 		D80C28E6288616A000E4AD77 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28E5288616A000E4AD77 /* Repository.swift */; };
@@ -30,9 +31,24 @@
 		D8E7B1732887125B00944C30 /* KeyboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7B1722887125B00944C30 /* KeyboardViewModel.swift */; };
 		D8E7B1752887144500944C30 /* DefaultKeyboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7B1742887144500944C30 /* DefaultKeyboardViewModel.swift */; };
 		D8E7B1782887749F00944C30 /* StyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7B1772887749E00944C30 /* StyleSheet.swift */; };
-		D8E7B182288786EE00944C30 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8E7B180288786EE00944C30 /* Localizable.strings */; };
 		D8E7B1832887873900944C30 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8E7B180288786EE00944C30 /* Localizable.strings */; };
 		D8E7B186288787F100944C30 /* Localizables.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7B185288787F100944C30 /* Localizables.swift */; };
+		D8E7B1B22888420600944C30 /* keysCustomKeyboardChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7B1B12888420600944C30 /* keysCustomKeyboardChallengeTests.swift */; };
+		D8E7B1B92888436800944C30 /* BaseSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28E1288615AD00E4AD77 /* BaseSubscriber.swift */; };
+		D8E7B1BA2888436A00944C30 /* BaseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28E3288615D000E4AD77 /* BaseUseCase.swift */; };
+		D8E7B1BB2888437100944C30 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28E5288616A000E4AD77 /* Repository.swift */; };
+		D8E7B1BC2888437400944C30 /* RestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28E7288616EC00E4AD77 /* RestRepository.swift */; };
+		D8E7B1BD2888437700944C30 /* ProxyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28EC288617B100E4AD77 /* ProxyService.swift */; };
+		D8E7B1BE2888437A00944C30 /* LocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28EF2886182900E4AD77 /* LocalRepository.swift */; };
+		D8E7B1BF2888437D00944C30 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28EA2886176B00E4AD77 /* Reachability.swift */; };
+		D8E7B1C02888438100944C30 /* KeyboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28F728861EBF00E4AD77 /* KeyboardService.swift */; };
+		D8E7B1C12888438500944C30 /* ContentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28F228861AFC00E4AD77 /* ContentResponse.swift */; };
+		D8E7B1C22888438800944C30 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28F528861B2C00E4AD77 /* Item.swift */; };
+		D8E7B1C52888447900944C30 /* ItemEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7B1C42888447900944C30 /* ItemEntity.swift */; };
+		D8E7B1C62888447900944C30 /* ItemEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7B1C42888447900944C30 /* ItemEntity.swift */; };
+		D8E7B1C92888449C00944C30 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7B1C82888449C00944C30 /* Database.swift */; };
+		D8E7B1CA2888449C00944C30 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7B1C82888449C00944C30 /* Database.swift */; };
+		D8E7B1CB28884DA200944C30 /* GetContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C28FB288625D500E4AD77 /* GetContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +58,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = A3445BDA282B06EE00F25EBC;
 			remoteInfo = keyboard;
+		};
+		D8E7B1B32888420600944C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3445BBE28299E0200F25EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3445BC528299E0200F25EBC;
+			remoteInfo = keysCustomKeyboardChallenge;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -62,7 +85,9 @@
 /* Begin PBXFileReference section */
 		1B18F7A479E9C7ADAD4EED66 /* Pods_keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F521404DE64493FAF0A86BA /* Pods-keyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keyboard.debug.xcconfig"; path = "Target Support Files/Pods-keyboard/Pods-keyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		2B91801B835AF4781DC69CA6 /* Pods-keysCustomKeyboardChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keysCustomKeyboardChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-keysCustomKeyboardChallengeTests/Pods-keysCustomKeyboardChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B18FF220E411954B8D92BB8 /* Pods_keysCustomKeyboardChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_keysCustomKeyboardChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		836598895F4DC63B539CAAC0 /* Pods_keysCustomKeyboardChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_keysCustomKeyboardChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB2B89B7F8C2A294F60130C /* Pods-keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keyboard.release.xcconfig"; path = "Target Support Files/Pods-keyboard/Pods-keyboard.release.xcconfig"; sourceTree = "<group>"; };
 		9F3A7A9BB0D109F3C8E73381 /* Pods-keysCustomKeyboardChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keysCustomKeyboardChallenge.debug.xcconfig"; path = "Target Support Files/Pods-keysCustomKeyboardChallenge/Pods-keysCustomKeyboardChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		A3445BC628299E0200F25EBC /* keysCustomKeyboardChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keysCustomKeyboardChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,7 +115,12 @@
 		D8E7B1772887749E00944C30 /* StyleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSheet.swift; sourceTree = "<group>"; };
 		D8E7B181288786EE00944C30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D8E7B185288787F100944C30 /* Localizables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizables.swift; sourceTree = "<group>"; };
+		D8E7B1AF2888420600944C30 /* keysCustomKeyboardChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keysCustomKeyboardChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E7B1B12888420600944C30 /* keysCustomKeyboardChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keysCustomKeyboardChallengeTests.swift; sourceTree = "<group>"; };
+		D8E7B1C42888447900944C30 /* ItemEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEntity.swift; sourceTree = "<group>"; };
+		D8E7B1C82888449C00944C30 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		E916EFE913300EF7C32A8ED3 /* Pods-keysCustomKeyboardChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keysCustomKeyboardChallenge.release.xcconfig"; path = "Target Support Files/Pods-keysCustomKeyboardChallenge/Pods-keysCustomKeyboardChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		FDFF8520F844A1E613C8FB6E /* Pods-keysCustomKeyboardChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keysCustomKeyboardChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-keysCustomKeyboardChallengeTests/Pods-keysCustomKeyboardChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +140,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8E7B1AC2888420600944C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4160CDC0B4D479EDDCAB406 /* Pods_keysCustomKeyboardChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -120,6 +158,8 @@
 				9BB2B89B7F8C2A294F60130C /* Pods-keyboard.release.xcconfig */,
 				9F3A7A9BB0D109F3C8E73381 /* Pods-keysCustomKeyboardChallenge.debug.xcconfig */,
 				E916EFE913300EF7C32A8ED3 /* Pods-keysCustomKeyboardChallenge.release.xcconfig */,
+				2B91801B835AF4781DC69CA6 /* Pods-keysCustomKeyboardChallengeTests.debug.xcconfig */,
+				FDFF8520F844A1E613C8FB6E /* Pods-keysCustomKeyboardChallengeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -129,6 +169,7 @@
 			children = (
 				A3445BC828299E0200F25EBC /* keysCustomKeyboardChallenge */,
 				A3445BDC282B06EE00F25EBC /* keyboard */,
+				D8E7B1B02888420600944C30 /* keysCustomKeyboardChallengeTests */,
 				A3445BC728299E0200F25EBC /* Products */,
 				75F635F96E41DAEE9FBF24F4 /* Pods */,
 				E9DA4D46A8DF079BEA278DDD /* Frameworks */,
@@ -140,6 +181,7 @@
 			children = (
 				A3445BC628299E0200F25EBC /* keysCustomKeyboardChallenge.app */,
 				A3445BDB282B06EE00F25EBC /* keyboard.appex */,
+				D8E7B1AF2888420600944C30 /* keysCustomKeyboardChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,7 +189,6 @@
 		A3445BC828299E0200F25EBC /* keysCustomKeyboardChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				D8E7B180288786EE00944C30 /* Localizable.strings */,
 				A3445BC928299E0200F25EBC /* keysCustomKeyboardChallengeApp.swift */,
 				A3445BCB28299E0200F25EBC /* ContentView.swift */,
 				A3445BCD28299E0500F25EBC /* Assets.xcassets */,
@@ -191,6 +232,7 @@
 				D80C28E7288616EC00E4AD77 /* RestRepository.swift */,
 				D80C28EF2886182900E4AD77 /* LocalRepository.swift */,
 				D80C28EC288617B100E4AD77 /* ProxyService.swift */,
+				D8E7B1C32888444C00944C30 /* Local */,
 				D80C28F128861AA500E4AD77 /* Rest */,
 			);
 			path = DataAccess;
@@ -199,6 +241,7 @@
 		D80C28DF2886152D00E4AD77 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D8E7B1CC28884DB300944C30 /* Resources */,
 				D8E7B184288787D400944C30 /* Utils */,
 				D8E7B1762887748500944C30 /* Style */,
 				D8E7B1712887122200944C30 /* ViewModel */,
@@ -285,11 +328,45 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		D8E7B1B02888420600944C30 /* keysCustomKeyboardChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8E7B1B12888420600944C30 /* keysCustomKeyboardChallengeTests.swift */,
+			);
+			path = keysCustomKeyboardChallengeTests;
+			sourceTree = "<group>";
+		};
+		D8E7B1C32888444C00944C30 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				D8E7B1C72888448500944C30 /* Utils */,
+				D8E7B1C42888447900944C30 /* ItemEntity.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		D8E7B1C72888448500944C30 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D8E7B1C82888449C00944C30 /* Database.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D8E7B1CC28884DB300944C30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8E7B180288786EE00944C30 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E9DA4D46A8DF079BEA278DDD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				1B18F7A479E9C7ADAD4EED66 /* Pods_keyboard.framework */,
 				4B18FF220E411954B8D92BB8 /* Pods_keysCustomKeyboardChallenge.framework */,
+				836598895F4DC63B539CAAC0 /* Pods_keysCustomKeyboardChallengeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -336,6 +413,26 @@
 			productReference = A3445BDB282B06EE00F25EBC /* keyboard.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		D8E7B1AE2888420600944C30 /* keysCustomKeyboardChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8E7B1B72888420600944C30 /* Build configuration list for PBXNativeTarget "keysCustomKeyboardChallengeTests" */;
+			buildPhases = (
+				683804DDC68240C6D80323B7 /* [CP] Check Pods Manifest.lock */,
+				D8E7B1AB2888420600944C30 /* Sources */,
+				D8E7B1AC2888420600944C30 /* Frameworks */,
+				D8E7B1AD2888420600944C30 /* Resources */,
+				9B232E8C79D5FDA8CE819C8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8E7B1B42888420600944C30 /* PBXTargetDependency */,
+			);
+			name = keysCustomKeyboardChallengeTests;
+			productName = keysCustomKeyboardChallengeTests;
+			productReference = D8E7B1AF2888420600944C30 /* keysCustomKeyboardChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -343,7 +440,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
+				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					A3445BC528299E0200F25EBC = {
@@ -351,6 +448,10 @@
 					};
 					A3445BDA282B06EE00F25EBC = {
 						CreatedOnToolsVersion = 13.3.1;
+					};
+					D8E7B1AE2888420600944C30 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A3445BC528299E0200F25EBC;
 					};
 				};
 			};
@@ -369,6 +470,7 @@
 			targets = (
 				A3445BC528299E0200F25EBC /* keysCustomKeyboardChallenge */,
 				A3445BDA282B06EE00F25EBC /* keyboard */,
+				D8E7B1AE2888420600944C30 /* keysCustomKeyboardChallengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -379,7 +481,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3445BD128299E0500F25EBC /* Preview Assets.xcassets in Resources */,
-				D8E7B182288786EE00944C30 /* Localizable.strings in Resources */,
 				A3445BCE28299E0500F25EBC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +490,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8E7B1832887873900944C30 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E7B1AD2888420600944C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +542,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-keysCustomKeyboardChallenge/Pods-keysCustomKeyboardChallenge-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		683804DDC68240C6D80323B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-keysCustomKeyboardChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		72CDE1DB7724736751BD15C4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,6 +586,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9B232E8C79D5FDA8CE819C8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-keysCustomKeyboardChallengeTests/Pods-keysCustomKeyboardChallengeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-keysCustomKeyboardChallengeTests/Pods-keysCustomKeyboardChallengeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-keysCustomKeyboardChallengeTests/Pods-keysCustomKeyboardChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -475,6 +622,7 @@
 				D80C28ED288617B100E4AD77 /* ProxyService.swift in Sources */,
 				D80C28EB2886176B00E4AD77 /* Reachability.swift in Sources */,
 				D80C28E4288615D000E4AD77 /* BaseUseCase.swift in Sources */,
+				D8E7B1C52888447900944C30 /* ItemEntity.swift in Sources */,
 				A3445BE8282B114400F25EBC /* RootView.swift in Sources */,
 				D80C28F02886182900E4AD77 /* LocalRepository.swift in Sources */,
 				D8E7B1782887749F00944C30 /* StyleSheet.swift in Sources */,
@@ -488,7 +636,29 @@
 				D80C28E8288616EC00E4AD77 /* RestRepository.swift in Sources */,
 				D8E7B186288787F100944C30 /* Localizables.swift in Sources */,
 				A3445BDE282B06EE00F25EBC /* KeyboardViewController.swift in Sources */,
+				D8E7B1C92888449C00944C30 /* Database.swift in Sources */,
 				D80C28E2288615AD00E4AD77 /* BaseSubscriber.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E7B1AB2888420600944C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E7B1BD2888437700944C30 /* ProxyService.swift in Sources */,
+				D8E7B1BA2888436A00944C30 /* BaseUseCase.swift in Sources */,
+				D8E7B1CB28884DA200944C30 /* GetContent.swift in Sources */,
+				D8E7B1C62888447900944C30 /* ItemEntity.swift in Sources */,
+				D8E7B1BE2888437A00944C30 /* LocalRepository.swift in Sources */,
+				D8E7B1C22888438800944C30 /* Item.swift in Sources */,
+				D8E7B1BB2888437100944C30 /* Repository.swift in Sources */,
+				D8E7B1BF2888437D00944C30 /* Reachability.swift in Sources */,
+				D8E7B1C02888438100944C30 /* KeyboardService.swift in Sources */,
+				D8E7B1BC2888437400944C30 /* RestRepository.swift in Sources */,
+				D8E7B1B22888420600944C30 /* keysCustomKeyboardChallengeTests.swift in Sources */,
+				D8E7B1B92888436800944C30 /* BaseSubscriber.swift in Sources */,
+				D8E7B1CA2888449C00944C30 /* Database.swift in Sources */,
+				D8E7B1C12888438500944C30 /* ContentResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +669,11 @@
 			isa = PBXTargetDependency;
 			target = A3445BDA282B06EE00F25EBC /* keyboard */;
 			targetProxy = A3445BE0282B06EE00F25EBC /* PBXContainerItemProxy */;
+		};
+		D8E7B1B42888420600944C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3445BC528299E0200F25EBC /* keysCustomKeyboardChallenge */;
+			targetProxy = D8E7B1B32888420600944C30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -744,6 +919,58 @@
 			};
 			name = Release;
 		};
+		D8E7B1B52888420600944C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B91801B835AF4781DC69CA6 /* Pods-keysCustomKeyboardChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V75GW6LS4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanmartin.keysCustomKeyboardChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keysCustomKeyboardChallenge.app/keysCustomKeyboardChallenge";
+			};
+			name = Debug;
+		};
+		D8E7B1B62888420600944C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFF8520F844A1E613C8FB6E /* Pods-keysCustomKeyboardChallengeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V75GW6LS4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanmartin.keysCustomKeyboardChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keysCustomKeyboardChallenge.app/keysCustomKeyboardChallenge";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -770,6 +997,15 @@
 			buildConfigurations = (
 				A3445BE4282B06EE00F25EBC /* Debug */,
 				A3445BE5282B06EE00F25EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8E7B1B72888420600944C30 /* Build configuration list for PBXNativeTarget "keysCustomKeyboardChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E7B1B52888420600944C30 /* Debug */,
+				D8E7B1B62888420600944C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

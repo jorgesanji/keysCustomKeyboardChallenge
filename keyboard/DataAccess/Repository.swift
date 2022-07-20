@@ -9,5 +9,18 @@ import RxSwift
 
 protocol Repository : AnyObject{
 		
+	func saveContent(_ content: ContentResponse) -> Observable<ContentResponse>?
+	
 	func getContent() -> Observable<ContentResponse>?
+}
+
+extension Repository {
+	
+	func getContent() -> Observable<ContentResponse>? {
+		preconditionFailure()
+	}
+	
+	func saveContent(_ content: ContentResponse) -> Observable<ContentResponse>? {
+		preconditionFailure()
+	}
 }

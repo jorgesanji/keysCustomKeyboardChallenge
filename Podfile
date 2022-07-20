@@ -10,7 +10,14 @@ target 'keyboard' do
   pod 'Moya/RxSwift', '~> 15.0'
   pod 'RxSwift', '6.5.0'
   pod 'RxCocoa', '6.5.0'
-  pod 'Swinject', '~> 2.6.0'
+	pod 'RealmSwift'
+
+	target 'keysCustomKeyboardChallengeTests' do
+		inherit! :search_paths
+		# Pods for testing
+		pod 'RxBlocking', '6.5.0'
+		pod 'RxTest', '6.5.0'
+	end
 
 end
 
