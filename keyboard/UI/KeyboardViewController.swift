@@ -30,7 +30,7 @@ class KeyboardViewController: UIInputViewController {
 		// Local repo for retrieving content from the local database when the user is offline.
 		let localRepository = LocalRepository()
 		
-		// Handler repos for checking which repo has to be selected using if the user has an internet connection or not.
+		// Handler repos for checking which repo has to be selected depending if the user has an internet connection or not.
 		let proxyService = ProxyServiceImpl(restRepository: restRepository, localRepository: localRepository)
 		
 		// Use case for retrieving the content which will choose to depending of the Proxyservice.
