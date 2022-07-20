@@ -11,10 +11,10 @@ final class DefaultKeyboardViewModel: ObservableObject, KeyboardViewModel {
 	
 	private final let getConten: GetContentUseCase
 	
-	@Published private var currentIndex: Int = -1
+	private var currentIndex: Int = -1
 	
 	@Published var state: State = .idle
-	
+
 	var content: [String] = []
 	
 	private var arrayItems: [[String]] = []
