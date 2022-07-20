@@ -19,5 +19,6 @@ and uset it in the main folder of the project:
  
 2) > pod deintegrate
 
-and later reinstall the dependencies
+and later reinstall the dependencies:
+
 3) > pod install
