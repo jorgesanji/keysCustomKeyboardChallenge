@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  keysCustomKeyboardChallenge
+
+  Created by Jorge Sanmartin on 19/07/22.
+  
+*/
+
+"error.button.title" = "Error happens try again";
+"next.keyboard.title" = "Return to default keyboard";

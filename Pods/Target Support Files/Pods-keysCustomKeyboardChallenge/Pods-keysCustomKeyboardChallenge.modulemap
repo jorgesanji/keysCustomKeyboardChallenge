@@ -1,0 +1,6 @@
+framework module Pods_keysCustomKeyboardChallenge {
+  umbrella header "Pods-keysCustomKeyboardChallenge-umbrella.h"
+
+  export *
+  module * { export * }
+}
