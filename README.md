@@ -20,4 +20,4 @@ and uset it in the main folder of the project:
 2) > pod deintegrate
 
 and later reinstall the dependencies
-> pod install
+3) > pod install
