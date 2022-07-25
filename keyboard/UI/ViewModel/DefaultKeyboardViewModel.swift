@@ -7,9 +7,9 @@
 
 import Combine
 
-final class DefaultKeyboardViewModel: ObservableObject, KeyboardViewModel {
+class DefaultKeyboardViewModel: ObservableObject, KeyboardViewModel {
 	
-	private final let getConten: GetContentUseCase
+	private var getContent: GetContentUseCase
 	
 	private var currentIndex: Int = -1
 	
@@ -24,7 +24,7 @@ final class DefaultKeyboardViewModel: ObservableObject, KeyboardViewModel {
 	}
 	
 	init(getContent: GetContentUseCase){
-		self.getConten = getContent
+		self.getContent = getContent
 	}
 	
 	private func handleContentResponse(_ response: ContentResponse) {
@@ -38,8 +38,8 @@ final class DefaultKeyboardViewModel: ObservableObject, KeyboardViewModel {
 	}
 		
 	func showItemsAtContentIndex(_ index: Int) {
-		self.state = .showItem
 		self.currentIndex = index
+		self.state = .showItem
 	}
 	
 	func hideItems() {
@@ -48,7 +48,7 @@ final class DefaultKeyboardViewModel: ObservableObject, KeyboardViewModel {
 	
 	func fetchContent(){
 		self.state = .syncing
-		getConten.build().subscribe {[weak self] response in
+		getContent.build().subscribe {[weak self] response in
 			self?.handleContentResponse(response)
 		} onError: {[weak self] error in
 			self?.handleContentError(error)
