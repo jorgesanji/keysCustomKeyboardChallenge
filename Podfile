@@ -17,6 +17,7 @@ target 'keyboard' do
 		# Pods for testing
 		pod 'RxBlocking', '6.5.0'
 		pod 'RxTest', '6.5.0'
+		pod 'iOSSnapshotTestCase'
 	end
 
 end

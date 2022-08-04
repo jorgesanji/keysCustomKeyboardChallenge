@@ -1,5 +1,10 @@
 PODS:
   - Alamofire (5.6.2)
+  - iOSSnapshotTestCase (8.0.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 8.0.0)
+  - iOSSnapshotTestCase/Core (8.0.0)
+  - iOSSnapshotTestCase/SwiftSupport (8.0.0):
+    - iOSSnapshotTestCase/Core
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
   - Moya/RxSwift (15.0.0):
@@ -22,6 +27,7 @@ PODS:
     - RxSwift (= 6.5.0)
 
 DEPENDENCIES:
+  - iOSSnapshotTestCase
   - Moya/RxSwift (~> 15.0)
   - RealmSwift
   - RxBlocking (= 6.5.0)
@@ -32,6 +38,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - iOSSnapshotTestCase
     - Moya
     - Realm
     - RealmSwift
@@ -43,6 +50,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   Realm: e617c54ad0f566b3d0f6a2abae7010de05f252ac
   RealmSwift: 8a516a8759d80d52ebcec1ff1076f5f5159f98b2
@@ -52,6 +60,6 @@ SPEC CHECKSUMS:
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   RxTest: eb2d23adefc5a5ebf5779c7792fa3edfe6ebcc17
 
-PODFILE CHECKSUM: 92dcf6f250bfbcbe489a33137fc912893f56e11a
+PODFILE CHECKSUM: 7a1b9b1f11110c3c2a1f0e7f35144a6ab94b1a34
 
 COCOAPODS: 1.11.3

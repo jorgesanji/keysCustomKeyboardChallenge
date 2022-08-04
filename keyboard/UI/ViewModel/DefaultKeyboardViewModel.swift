@@ -11,17 +11,13 @@ class DefaultKeyboardViewModel: ObservableObject, KeyboardViewModel {
 	
 	private var getContent: GetContentUseCase
 	
-	private var currentIndex: Int = -1
-	
+	private var arrayItems: [[String]] = []
+		
 	@Published var state: State = .idle
 
 	var content: [String] = []
-	
-	private var arrayItems: [[String]] = []
-	
-	var items: [String] {
-		arrayItems[currentIndex]
-	}
+		
+	var items: [String] = []
 	
 	init(getContent: GetContentUseCase){
 		self.getContent = getContent
@@ -38,7 +34,7 @@ class DefaultKeyboardViewModel: ObservableObject, KeyboardViewModel {
 	}
 		
 	func showItemsAtContentIndex(_ index: Int) {
-		self.currentIndex = index
+		self.items = arrayItems[index]
 		self.state = .showItem
 	}
 	

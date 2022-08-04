@@ -13,7 +13,7 @@ protocol GetContentUseCase: AnyObject {
 
 final class GetContent: BaseUseCase<ContentResponse>, GetContentUseCase {
 	
-	override func buildUseCaseObservable() -> Observable<ContentResponse>? {
+	/*override func buildUseCaseObservable() -> Observable<ContentResponse>? {
 		return fetchLocalContent()!.flatMap { response -> Observable<ContentResponse> in
 			// Check if local database has items if not request to API.
 			if response.content.count > 0 {
@@ -22,6 +22,10 @@ final class GetContent: BaseUseCase<ContentResponse>, GetContentUseCase {
 				return self.fetchApiContent()!
 			}
 		}
+	}*/
+	
+	override func buildUseCaseObservable() -> Observable<ContentResponse>? {
+		Observable.concat(self.fetchLocalContent()!, self.fetchApiContent()!)
 	}
 	
 	private func savingContent(_ content: ContentResponse) -> Observable<ContentResponse>? {
